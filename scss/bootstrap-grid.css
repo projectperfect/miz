@@ -1,0 +1,63 @@
+/*
+Error: $color: "var(--bs-body-color-rgb)" is not a color for `rgba'
+        on line 543 of G:/PROJECTS/Mizuxe/miz/scss/_variables.scss
+        from line 7 of G:\PROJECTS\Mizuxe\miz\scss\bootstrap-grid.scss
+
+Backtrace:
+G:/PROJECTS/Mizuxe/miz/scss/_variables.scss:543
+G:\PROJECTS\Mizuxe\miz\scss\bootstrap-grid.scss:7
+G:/koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/funcall.rb:315:in `reformat_argument_error'
+G:/koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/funcall.rb:162:in `rescue in _perform'
+G:/koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/funcall.rb:132:in `_perform'
+G:/koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
+G:/koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/list_literal.rb:75:in `block in _perform'
+G:/koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/list_literal.rb:75:in `map'
+G:/koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/list_literal.rb:75:in `_perform'
+G:/koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
+G:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:482:in `visit_variable'
+G:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+G:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+G:/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+G:/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+G:/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+G:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+G:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:329:in `block (2 levels) in visit_import'
+G:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:329:in `map'
+G:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:329:in `block in visit_import'
+G:/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:88:in `block in with_import'
+G:/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+G:/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:88:in `with_import'
+G:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
+G:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+G:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+G:/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+G:/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+G:/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+G:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+G:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+G:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+G:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+G:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+G:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+G:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+G:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+G:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+G:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+G:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
+G:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
+G:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
+G:/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+G:/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+G:/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+G:/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+G:/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+G:/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+G:/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+G:/koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+G:/koala/bin/sass:22:in `load'
+G:/koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: $color: \"var(--bs-body-color-rgb)\" is not a color for `rgba'\A         on line 543 of G:/PROJECTS/Mizuxe/miz/scss/_variables.scss\A         from line 7 of G:\PROJECTS\Mizuxe\miz\scss\bootstrap-grid.scss"; }
