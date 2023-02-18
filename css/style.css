@@ -70,6 +70,10 @@ body {
   color: #fff;
 }
 
+.foot {
+  background: var(--primary);
+}
+
 @media (max-width: 768px) {
   #showcase {
     min-height: 500px;
